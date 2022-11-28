@@ -49,6 +49,7 @@ const filterItems = (category) => {
       <div className="title">
         <h2>English Menu</h2>
         <div className="underline"></div>
+        <div className="search">
         <input
                 type="text"
                 value={searchName}
@@ -56,8 +57,10 @@ const filterItems = (category) => {
                   setSearchName(e.target.value)
                 }}
                 className="search-input"
-                placeholder="search..."
+                placeholder="搜尋想點的東西..."
               />
+        </div>
+        
       </div>
       {/* filter buttons */}
       <Category_27 categories={categories}  filterItems={filterItems}/>

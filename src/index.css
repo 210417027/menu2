@@ -263,9 +263,14 @@ Menu
   }
 }
 
+/* 搜尋按鈕的css */
+
+
+
 .search-input {
   padding: 0.5rem;
   background: var(--grey-200);
+  background-color: #f28500;
   border-radius: var(--borderRadius);
   border-color: transparent;
   letter-spacing: var(--letterSpacing);
@@ -275,3 +280,4 @@ Menu
   display: flex;
   justify-content: center;
 }
+
