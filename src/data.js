@@ -10,11 +10,11 @@ const menu = [
   // },
   {
     id: 2,
-    title: "BeefBelly    培根牛肉鍋",
+    title: "BeefBelly    培根牛肉鍋(原肉 部位-胸腹肉)",
     category: "HotPot",
     price: 275,
     img: "./images/main2.jpg",
-    desc: `Can choose A or B. A is more meat ,B is more vegetables. `,
+    desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
   {
     id: 3,
