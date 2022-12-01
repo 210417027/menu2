@@ -16,11 +16,12 @@ const Menu_27 = ( {items}) => {
           <div class="item-info">
             <header>
               <h4>{title}</h4>
-              <h4>{chinese}</h4>
               <h4 class="price">${price}</h4>
             </header>
             <p className="item-text">
               {desc}
+              <h4>{chinese}</h4>
+
             </p>
           </div>
         </article>
