@@ -239,7 +239,7 @@ const menu = [
     chinese: "(原肉 部位-羊肋排)",
     category: "HotPot",
     price: 305,
-    img: "https://cdn.walkerland.com.tw/images/upload/poi/p56312/m26189/e97148e056064903e2ca1e7bc1f727131d68807a.jpg",
+    img: "https://pic.pimg.tw/penguinpeng/1401969513-1455440509_n.jpg",
     desc: `lamb ribs`,
   },
   {
