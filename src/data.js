@@ -10,7 +10,8 @@ const menu = [
   // },
   {
     id: 2,
-    title: "BeefBelly    培根牛肉鍋(原肉 部位-胸腹肉)",
+    title: "BeefBelly   培根牛肉鍋",
+    chinese: "(原肉 部位-胸腹肉)",
     category: "HotPot",
     price: 275,
     img: "./images/main2.jpg",
