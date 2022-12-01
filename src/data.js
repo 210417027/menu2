@@ -1,13 +1,13 @@
 const menu = [
-  // {
-  //   id: 1,
-  //   title: "Duck Drumstick",
-  //   chinese: "鴨腿肉片鍋",
-  //   category: "HotPot",
-  //   price: 259,
-  //   img: "./images/main9.jpg",
-  //   desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
-  // },
+  {
+    id: 1,
+    title: "Flat Iron Steak 霜降牛肉鍋",
+    chinese: "(原肉 部位-肩胛肉)",
+    category: "HotPot",
+    price: 440,
+    img: "./images/main12.jpg",
+    desc: `Flat Iron Steak`,
+  },
   {
     id: 2,
     title: "BeefBelly   培根牛肉鍋",
@@ -20,6 +20,7 @@ const menu = [
   {
     id: 3,
     title: "Pork Shoulder  梅花豬肉鍋",
+    chinese: "(原肉 部位-肩胛肉)",
     category: "HotPot",
     price: 269,
     img: "./images/main3.jpg",
@@ -28,7 +29,7 @@ const menu = [
   {
     id: 4,
     title: "Pork 上選豬肉鍋",
-    chinese: "上選豬肉鍋",
+    chinese: "(重塑肉 部位-前腿肉)",
     category: "HotPot",
     price: 259,
     img: "./images/main4.jpg",
@@ -37,7 +38,7 @@ const menu = [
   {
     id: 5,
     title: "Beef Belly 培根牛肉鍋",
-    chinese: "培根牛肉鍋",
+    chinese: "(原肉 部位-胸腹肉)",
     category: "HotPot",
     price: 275,
     img: "./images/main5.jpg",
@@ -46,7 +47,7 @@ const menu = [
   {
     id: 6,
     title: "Pork Belly 培根豬肉鍋",
-    chinese: "培根豬肉鍋",
+    chinese: "(原肉 部位-胸腹肉)",
     category: "HotPot",
     price: 275,
     img: "./images/main6.jpg",
@@ -55,7 +56,7 @@ const menu = [
   {
     id: 7,
     title: "Lamb 上選羊肉鍋",
-    chinese: "上選羊肉鍋",
+    chinese: "(重塑肉 部位-類似培根 油花很像培根)",
     category: "HotPot",
     price: 275,
     img: "./images/main7.jpg",
@@ -64,7 +65,7 @@ const menu = [
   {
     id: 8,
     title: "Chicken Breast 低脂雞肉鍋",
-    chinese: "低脂雞肉鍋",
+    chinese: "(重塑肉 部位-雞胸肉)",
     category: "HotPot",
     price: 269,
     img: "./images/main8.jpg",
@@ -73,7 +74,7 @@ const menu = [
   {
     id: 9,
     title: "Beef aging 熟成牛肉鍋",
-    chinese: "熟成牛肉鍋",
+    chinese: "(原肉 部位-後腿肉)",
     category: "HotPot",
     price: 310,
     img: "./images/main13.jpg",
@@ -82,7 +83,7 @@ const menu = [
   {
     id: 10,
     title: "Top Blade Steak 大眾牛肉鍋",
-    chinese: "大眾牛肉鍋",
+    chinese: "(原肉 部位-肩胛肉)",
     category: "HotPot",
     price: 285,
     img: "./images/main1.jpg",
@@ -91,29 +92,29 @@ const menu = [
    {
     id: 11,
     title: "Beef Sirloin 沙朗牛肉鍋",
-    chinese: "沙朗牛肉鍋",
+    chinese: "(原肉 部位-腰脊肉)",
     category: "HotPot",
     price: 335,
     img: "./images/main10.jpg",
     desc: `Beef Sirloin`,
   },
-  // {
-  //   id: 12,
-  //   title: "Pork Cheek",
-  //   chinese: "松阪豬肉鍋",
-  //   category: "HotPot",
-  //   price: 390,
-  //   img: "./images/main11.jpg",
-  //   desc: `Pork Cheek`,
-  // },
+  {
+    id: 12,
+    title: "Prime Lamb Shoulder 頂級羊肩鍋",
+    chinese: "(重塑肉 部位-羊肩肉)",
+    category: "HotPot",
+    price: 299,
+    img: "https://1.bp.blogspot.com/-7KskQ_fxyb8/X8YuS5ry68I/AAAAAAAAcTU/kI8WY535NZAc25Gy6ccSx0ju3RrJPM8KACNcBGAsYHQ/s2048/%25E7%2581%25AB%25E9%258D%258B5.jpg",
+    desc: `Prime Lamb Shoulder 頂級羊肩鍋`,
+  },
   {
     id: 13,
-    title: "Flat Iron Steak 霜降牛肉鍋",
-    chinese: "霜降牛肉鍋",
+    title: "American Boneless Beef Short Ribs 美國無骨牛小排鍋",
+    chinese: "(原肉 部位-肋脊肉)",
     category: "HotPot",
-    price: 440,
-    img: "./images/main12.jpg",
-    desc: `Flat Iron Steak`,
+    price: 490,
+    img: "https://scontent.ftpe3-2.fna.fbcdn.net/v/t31.18172-8/18839850_1973262176236149_3267471998639865587_o.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=9267fe&_nc_ohc=Dk0KM3HUbLwAX_liJms&_nc_oc=AQnBXW-6Kvm8r1qBhXsT5bS-akHdwXswMbxUjqNtZ2xSZhr9cSWZ6LOET2ICQ1UkBMc&_nc_ht=scontent.ftpe3-2.fna&oh=00_AfCDbtZuj-lEDMpj1mcjio8zN15DoFK0iACkRnLm-Ag1aA&oe=63B01E65",
+    desc: `American Boneless Beef Short Ribs`,
   },
   {
     id: 14,
@@ -224,7 +225,34 @@ const menu = [
     desc: `Vegetarians please order this`,
   },
   {
-    id: 26,
+    id: 26 ,
+    title: "Pesto Chicken Fillets 香蒜雞柳鍋",
+    chinese: "(原肉 部位-雞胸柳條)",
+    category: "HotPot",
+    price: 279,
+    img: "https://1.bp.blogspot.com/-jduISli1Eoc/WFU8IuWqAJI/AAAAAAAAFiE/KnVcYY3586swpxObYhNf95Tm45A62drkACPcB/w1200-h630-p-k-no-nu/20161210_183825.jpg",
+    desc: `Vegetarians please order this`,
+  },
+  {
+    id: 27 ,
+    title: "lamb ribs 羊肋排鍋",
+    chinese: "(原肉 部位-羊肋排)",
+    category: "HotPot",
+    price: 305,
+    img: "https://cdn.walkerland.com.tw/images/upload/poi/p56312/m26189/e97148e056064903e2ca1e7bc1f727131d68807a.jpg",
+    desc: `lamb ribs`,
+  },
+  {
+    id: 28 ,
+    title: "Chicken Drumsticks with Mushrooms 香菇雞腿鍋",
+    chinese: "(原肉 部位-雞腿肉)",
+    category: "HotPot",
+    price: 279,
+    img: "https://upssmile.com/wp-content/uploads/2017/02/IMG_2234%E7%B8%AE%E5%9C%96.jpg",
+    desc: `Chicken Drumsticks with Mushrooms`,
+  },
+  {
+    id: 29,
     title: "Egg 蛋",
     chinese: "蛋",
     category: "sideMeal",
@@ -233,7 +261,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 27,
+    id: 30,
     title: "rice 飯",
     chinese: "飯",
     category: "sideMeal",
@@ -242,7 +270,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 28,
+    id: 31,
     title: "winter<br>noodles 冬粉",
     chinese: "冬粉",
     category: "sideMeal",
@@ -251,7 +279,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 29,
+    id: 32,
     title: "noodles 烏龍麵",
     chinese: "烏龍麵",
     category: "sideMeal",
@@ -260,7 +288,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 30,
+    id: 33,
     title: "noodles oodles 王子麵",
     chinese: "王子麵",
     category: "sideMeal",
@@ -269,7 +297,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one.`,
   },
   {
-    id: 31,
+    id: 34,
     title: "Braised pork rice 魯肉飯",
     chinese: "魯肉飯",
     category: "sideMeal",
@@ -278,7 +306,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one or +NT10 upgrade Braised pork rice.`,
   },
   {
-    id: 32,
+    id: 35,
     title: "Tossed Rice with Pork Lard 豬油拌飯",
     chinese: "豬油拌飯",
     category: "sideMeal",
@@ -287,7 +315,7 @@ const menu = [
     desc: `If you order a pot, you can choose to rice,egg,noodle,winter noodle,noodles oodles for one or +NT10 Tossed Rice with Pork Lard.`,
   },
   {
-    id: 33,
+    id: 36,
     title: "Golden Shrimp Starch 金多蝦漿",
     chinese: "金多蝦漿",
     category: "else",
@@ -296,7 +324,7 @@ const menu = [
     desc: `Not suitable for people allergic to seafood.`,
   },
   {
-    id: 34,
+    id: 37,
     title: "Pig Blood Rice Cake 豬血糕",
     chinese: "豬血糕",
     category: "else",
@@ -305,7 +333,7 @@ const menu = [
     desc: `Pig Blood Rice Cake.`,
   },
   {
-    id: 35,
+    id: 38,
     title: "Taro 芋頭",
     chinese: "芋頭",
     category: "else",
@@ -314,7 +342,7 @@ const menu = [
     desc: `Taro is a tropical plant grown primarily for its edible corms.`,
   },
   {
-    id: 36,
+    id: 39,
     title: "Fish Ball with Egg Stuffing 魚包蛋",
     chinese: "魚包蛋",
     category: "else",
@@ -323,7 +351,7 @@ const menu = [
     desc: `Fish Ball with Egg Stuffing.`,
   },
   {
-    id: 37,
+    id: 40,
     title: "Oily Chicken Platter 油雞",
     chinese: "油雞",
     category: "else",
@@ -332,7 +360,7 @@ const menu = [
     desc: `Oily Chicken Platter.`,
   },
   {
-    id: 38,
+    id: 41,
     title: "Deep-Fried Pork Ribs 排骨酥",
     chinese: "排骨酥",
     category: "else",
@@ -341,7 +369,7 @@ const menu = [
     desc: `Deep-Fried Pork Ribs.`,
   },
   {
-    id: 39,
+    id: 42,
     title: "Spicy Duck Blood 麻辣鴨血",
     chinese: "麻辣鴨血",
     category: "else",
@@ -350,7 +378,7 @@ const menu = [
     desc: `Hot and Spicy Duck Blood Jelly.`,
   },
   {
-    id: 40,
+    id: 43,
     title: "Drunken Chicken Platter 醉雞盤",
     chinese: "醉雞盤",
     category: "else",
@@ -359,7 +387,7 @@ const menu = [
     desc: `Drunken Chicken Platter.`,
   },
   {
-    id: 41,
+    id: 44,
     title: "Lobster Salad Ball 龍蝦沙拉丸",
     chinese: "龍蝦沙拉丸",
     category: "else",
