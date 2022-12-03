@@ -10,6 +10,7 @@ const allCategories = ['all', 'HotPot', 'sideMeal', 'else'];
 
 const App_27 = () => {
   const [searchName, setSearchName] = useState('');
+  const [searchName2, setSearchName2] = useState('');
   const [menuItems, setMenuItems] = useState(items);
   const [categories, setCategories] = useState(allCategories);
 
@@ -28,6 +29,13 @@ const App_27 = () => {
     });
     setMenuItems(filterProducts);
   } , [searchName]);
+
+  useEffect(() => {
+    const filterMeets = items.filter( (menuItems) => {
+      return menuItems.chinese.toLowerCase().includes(searchName2.toLowerCase());
+    });
+    setMenuItems(filterMeets);
+  } , [searchName2]);
 
   const showAlert = (show = false, msg = "", type = "") => {
     setAlert({ show, msg, type });
@@ -58,6 +66,17 @@ const filterItems = (category) => {
                 }}
                 className="search-input"
                 placeholder="搜尋想點的東西..."
+              />
+        </div>
+        <div className="search2">
+        <input
+                type="text"
+                value={searchName2}
+                onChange={ (e) => {
+                  setSearchName2(e.target.value)
+                }}
+                className="search2-input"
+                placeholder="搜尋原肉or重塑肉"
               />
         </div>
         

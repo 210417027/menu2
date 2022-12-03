@@ -281,3 +281,16 @@ Menu
   justify-content: center;
 }
 
+.search2-input {
+  padding: 0.5rem;
+  background: var(--grey-200);
+  background-color: #87CEFA	;
+  border-radius: var(--borderRadius);
+  border-color: transparent;
+  letter-spacing: var(--letterSpacing);
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+}

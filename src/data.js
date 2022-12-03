@@ -231,7 +231,7 @@ const menu = [
     category: "HotPot",
     price: 279,
     img: "https://1.bp.blogspot.com/-jduISli1Eoc/WFU8IuWqAJI/AAAAAAAAFiE/KnVcYY3586swpxObYhNf95Tm45A62drkACPcB/w1200-h630-p-k-no-nu/20161210_183825.jpg",
-    desc: `Vegetarians please order this`,
+    desc: `Pesto Chicken Fillets`,
   },
   {
     id: 27 ,
@@ -271,7 +271,7 @@ const menu = [
   },
   {
     id: 31,
-    title: "winter<br>noodles 冬粉",
+    title: "winter noodles 冬粉",
     chinese: "冬粉",
     category: "sideMeal",
     price: 15,
