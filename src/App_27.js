@@ -67,7 +67,6 @@ const filterItems = (category) => {
                 className="search-input"
                 placeholder="搜尋想點的東西..."
               />
-        <button type="submit" className="button" >Search</button>
         </div>
         <div className="search2">
         <input
@@ -79,7 +78,6 @@ const filterItems = (category) => {
                 className="search2-input"
                 placeholder="搜尋原肉or重塑肉"
               />
-        <button type="submit" className="button" >Search</button>
 
 
         </div>

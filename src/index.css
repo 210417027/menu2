@@ -295,16 +295,4 @@ Menu
   justify-content: center;
 }
 
-.button { 
-  font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; 
-  font-size: 1rem; 
-  letter-spacing: .03em; 
-  color: #fff; 
-  background-color: #2386C8 ; 
-  padding: 0.45rem 0.15em; 
-  border: 2px solid #2386C8 ;
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  border-radius: 3px; 
-  display: inline-block; 
-  margin: 0; }
+
