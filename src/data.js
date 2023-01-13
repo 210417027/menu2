@@ -1,3 +1,4 @@
+// 此商品暫無照片 https://greensupply.com.tw/file/user/product/594prodImg20180823033006_1.jpg
 const menu = [
   {
     id: 1,
@@ -123,7 +124,7 @@ const menu = [
     chinese: "(重塑肉 部位-豬頸肉)",
     category: "HotPot",
     price: 330,
-    img: "https://greensupply.com.tw/file/user/product/594prodImg20180823033006_1.jpg",
+    img: "./images/1234.jpg",
     desc: `Can choose A or B. A is more meat ,B is more vegetables.`,
   },
   {
