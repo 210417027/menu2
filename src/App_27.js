@@ -87,6 +87,7 @@ const filterItems = (category) => {
       <Category_27 categories={categories}  filterItems={filterItems}/>
       {/* menu items */}
       <Menu_27 items ={menuItems} />
+
       </section>
   );
 };

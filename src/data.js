@@ -150,7 +150,7 @@ const menu = [
     chinese: "(原肉 部位-肋脊肉)",
     category: "HotPot",
     price: 490,
-    img: "https://scontent.ftpe3-2.fna.fbcdn.net/v/t31.18172-8/18839850_1973262176236149_3267471998639865587_o.jpg?stp=dst-jpg_p526x296&_nc_cat=102&ccb=1-7&_nc_sid=9267fe&_nc_ohc=Dk0KM3HUbLwAX_liJms&_nc_oc=AQnBXW-6Kvm8r1qBhXsT5bS-akHdwXswMbxUjqNtZ2xSZhr9cSWZ6LOET2ICQ1UkBMc&_nc_ht=scontent.ftpe3-2.fna&oh=00_AfCDbtZuj-lEDMpj1mcjio8zN15DoFK0iACkRnLm-Ag1aA&oe=63B01E65",
+    img: "./images/12.jpg",
     desc: `American Boneless Beef Short Ribs`,
   },
   {
